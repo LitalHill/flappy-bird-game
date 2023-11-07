@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    user-select: none;
+}
+
+header {
+    margin: 0 auto;
+    width: 431px;
+}
+
+h1 {
+    background: url("./darkflappybirdbg.png");
+    padding: 1.2rem 0;
+    margin: 0;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 6px;
+        background: #5239e2;
+}
+
+#board{
+    background-image: url("./darkflappybirdbg.png");
+}
+
